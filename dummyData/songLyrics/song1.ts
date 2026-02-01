@@ -3,10 +3,7 @@
  * @param timeString - Time string in format like "1.10" (1 minute 10 seconds), "2.30" (2 minutes 30 seconds), "0.45" (45 seconds), "3.0" (3 minutes)
  * @returns Time in milliseconds
  * @example
- * convertTimeToMs("1.10") => 70000 (1 minute + 10 seconds = 70000ms)
- * convertTimeToMs("2.30") => 150000 (2 minutes + 30 seconds = 150000ms)
- * convertTimeToMs("0.45") => 45000 (45 seconds = 45000ms)
- * convertTimeToMs("3.0") => 180000 (3 minutes = 180000ms)
+
  */
 export function convertTimeToMs(timeString: string): number {
     // Remove any whitespace
